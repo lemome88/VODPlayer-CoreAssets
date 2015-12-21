@@ -22,6 +22,8 @@ public class VODClient extends Frame {//play, pause, resume
 			vthread.suspend();
 			buttonControl2.setLabel("RESUME");
 			return;//
+			//dcdcdcdc
+			//cdcdcdcd
 		} 
 		
 		if(buttonControl2.getLabel().equals("RESUME")) {
