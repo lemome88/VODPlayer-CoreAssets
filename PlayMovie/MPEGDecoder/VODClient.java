@@ -18,6 +18,7 @@ public class VODClient extends Frame
 
 		buttonControl2 = new Button();
 		c = VODClientListener2.class;
+		//mas en play
 	}
     
     private  void jbInit() throws Exception {
