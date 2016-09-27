@@ -5,6 +5,8 @@ package MPEGDecoder;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
 final class ListFrameListener2 implements ActionListener
 {
@@ -14,9 +16,12 @@ final class ListFrameListener2 implements ActionListener
     {
 		this$0 = listFrame;
     }
+    if (listframe == null)
+    	return
 
     public void actionPerformed(ActionEvent actionEvent)
     {
         this$0.buttonControl2_actionPerformed(actionEvent);
     }
 }
+
